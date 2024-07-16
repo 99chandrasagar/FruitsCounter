@@ -1,0 +1,59 @@
+/* Write your CSS here */
+.bg-container {
+  background-color: #ffd569;
+  height: 100vh;
+  overflow-x: hidden;
+}
+
+.front-part {
+  background-color: white;
+  height: 80%;
+  margin: 34px;
+  border-radius: 14px;
+}
+
+.heading {
+  text-align: center;
+  margin: 12px;
+  padding-top: 10px;
+}
+
+.alignment {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin: 20px;
+}
+
+.images {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 28px;
+}
+
+.mango {
+  height: 50%;
+  width: 50%;
+  margin-left: 14px;
+}
+
+.banana {
+  height: 50%;
+  width: 50%;
+}
+.button-adjust {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 28px;
+}
+
+.button {
+  background-color: #007bff;
+  border-radius: 8px;
+  padding: 8px;
+  color: #ffffff;
+  cursor: pointer;
+  outline: none;
+}
